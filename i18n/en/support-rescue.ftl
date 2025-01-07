@@ -1,4 +1,4 @@
-app-title = {{ project-name | title_case }}
+app-title = support-rescue
 about = About
 view = View
 welcome = Welcome to COSMIC! ✨
