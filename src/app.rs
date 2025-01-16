@@ -67,9 +67,9 @@ impl Application for AppModel {
         let mut nav = nav_bar::Model::default();
 
         nav.insert()
-            .text(fl!("page-id", num = 1))
+            .text(fl!("disks"))
             .data::<Page>(Page::Page1)
-            .icon(icon::from_name("applications-science-symbolic"))
+            .icon(icon::from_name("drive-harddisk-system-symbolic"))
             .activate();
 
         nav.insert()

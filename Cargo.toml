@@ -3,8 +3,8 @@ name = "support-rescue"
 version = "0.1.0"
 edition = "2021"
 license = "{{ license }}"
-description = "{{ description }}"
-repository = "{{ repository-url }}"
+description = "A rescue tool for Pop!_OS"
+repository = "https://github.com/ahoneybun/support-rescue"
 
 [build-dependencies]
 vergen = { version = "8", features = ["git", "gitcl"] }
